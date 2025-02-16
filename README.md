@@ -37,17 +37,29 @@ A simple and interactive To-Do List application built using **React.js**. This a
 ## Folder Structure
 ```
 📂 todo-list-app
- ┣ 📂 src
- ┃ ┣ 📂 components
- ┃ ┃ ┣ 📜 Header.jsx
- ┃ ┃ ┣ 📜 TaskInput.jsx
- ┃ ┃ ┗ 📜 TaskItem.jsx
- ┃ ┣ 📂 styles
- ┃ ┃ ┗ 📜 styles.css
- ┃ ┣ 📜 App.jsx
- ┃ ┗ 📜 index.js
- ┣ 📜 package.json
- ┗ 📜 README.md
+┣ 📂 public
+┃ ┣ 🖼️ vite.svg
+┃ ┗ 🖼️ 4877010.jpg
+┣ 📂 src
+┃ ┣ 📂 assets
+┃ ┃ ┗ 🎨 react.svg
+┃ ┣ 📂 components
+┃ ┃ ┣ 🏗️ Header.jsx
+┃ ┃ ┣ 📝 TaskInput.jsx
+┃ ┃ ┗ ✅ TaskItem.jsx
+┃ ┣ 📂 styles
+┃ ┃ ┗ 🎨 styles.css
+┃ ┣ 🎨 App.css
+┃ ┣ ⚛️ App.jsx
+┃ ┣ 🎨 index.css
+┃ ┗ 🚀 main.jsx
+┣ 🚫 .gitignore
+┣ 📜 README.md
+┣ 🔧 eslint.config.js
+┣ 📄 index.html
+┣ 📦 package-lock.json
+┣ 📦 package.json
+┗ ⚙️ vite.config.js
 ```
 
 ## How to Use
